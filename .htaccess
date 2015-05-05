@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9\-]+)$ ?p=$1 [L]
+RewriteRule ^([^/]*)/news/([^/]*)$ /?p=$1&n=$2 [L]
+RewriteRule /deconnexion /?lougout=1 [L]
