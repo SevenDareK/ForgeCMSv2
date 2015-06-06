@@ -1,0 +1,12 @@
+{
+    "name": "forgecms/darek",
+    "require": {
+        "slim/slim": "^2.6"
+    },
+    "authors": [
+        {
+            "name": "DareK",
+            "email": "sevendarek@gmail.com"
+        }
+    ]
+}
