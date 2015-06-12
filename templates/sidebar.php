@@ -1,3 +1,6 @@
+<?php
+if($settings->get('sidebar')=='yes'):
+?>
 </div>
 <div class="col-xs-6 col-lg-4">
     <?php
@@ -14,3 +17,4 @@
     endforeach;
     ?>
 </div>
+<?php endif; ?>

@@ -24,7 +24,7 @@ class Database
 	{
 		if (!isset($pdo)) {
             $pdo = new PDO('mysql:dbname='.$this->db_name.';host='.$this->db_host, $this->db_user, $this->db_pass, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''));
-            // $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->pdo = $pdo;
         }
         return $pdo;
@@ -52,4 +52,11 @@ class Database
     	return $datas;
     }
 
+    public function insert($sql, $attr) {
+        $req = $this->getPDO()->prepare($sql);
+        $req->execute($attr);
+        if ($req) {
+            return true;
+        }
+    }
 }

@@ -4,8 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "75eb84a3078bd48a658279435da280bd",
+    "hash": "5f0588384453d2e001c7d032c0e4265a",
     "packages": [
+        {
+            "name": "form-manager/form-manager",
+            "version": "v4.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oscarotero/form-manager.git",
+                "reference": "27d658a0fc599b708a9d08ff7b2d27dd0cb25a8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oscarotero/form-manager/zipball/27d658a0fc599b708a9d08ff7b2d27dd0cb25a8a",
+                "reference": "27d658a0fc599b708a9d08ff7b2d27dd0cb25a8a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FormManager\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oscar Otero",
+                    "email": "oom@oscarotero.com",
+                    "homepage": "http://oscarotero.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP-HTML form manager",
+            "homepage": "https://github.com/oscarotero/form-manager",
+            "keywords": [
+                "data",
+                "form",
+                "html",
+                "validator"
+            ],
+            "time": "2015-05-30 12:30:50"
+        },
         {
             "name": "slim/slim",
             "version": "2.6.2",

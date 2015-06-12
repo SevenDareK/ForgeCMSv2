@@ -46,5 +46,52 @@
             "rest",
             "router"
         ]
+    },
+    {
+        "name": "form-manager/form-manager",
+        "version": "v4.4.0",
+        "version_normalized": "4.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oscarotero/form-manager.git",
+            "reference": "27d658a0fc599b708a9d08ff7b2d27dd0cb25a8a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oscarotero/form-manager/zipball/27d658a0fc599b708a9d08ff7b2d27dd0cb25a8a",
+            "reference": "27d658a0fc599b708a9d08ff7b2d27dd0cb25a8a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-05-30 12:30:50",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "FormManager\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Oscar Otero",
+                "email": "oom@oscarotero.com",
+                "homepage": "http://oscarotero.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP-HTML form manager",
+        "homepage": "https://github.com/oscarotero/form-manager",
+        "keywords": [
+            "data",
+            "form",
+            "html",
+            "validator"
+        ]
     }
 ]

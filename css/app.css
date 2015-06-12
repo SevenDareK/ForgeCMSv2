@@ -8387,3 +8387,14 @@ header.carousel .fill {
     background-position: center;
     background-size: cover;
 }
+
+.btn-bottom-nav {
+    position: absolute;
+    right: 40px;
+}
+
+.btn-green {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
